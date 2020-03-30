@@ -1,15 +1,15 @@
-#Spongebob Caser
+# Spongebob Caser
 
-##Intro
+## Intro
 
 This python program, when given a text input, converts the text into the "Spongebob case" see [here](https://i0.kym-cdn.com/photos/images/original/001/253/025/34d.jpg) for an example.
 
 The input is case-insensitive, and all punctuation is ignored. The text is parsed word by word.
 
-##Specifications
+## Specifications
 I created a few rules for the Spongebob case to follow, in order to improve humor, zaniness and readability.
 
-###Starting with lowercase
+### Starting with lowercase
 Each word starts with a lowercase letter just because I think it's funnier. For example, there's
 > DoN't Do ThAT
 
@@ -18,7 +18,7 @@ vs
 
 I believe it's fair to assert that the second is objectively more hilarious.
 
-###`I` and `l` confusion
+### `I` and `l` confusion
 Originally, I wasn't satisfied with just having every other letter be capitalized, because it created confusion between the capitol "I" and the lowercase "l" in non-monospaced fonts. For example, by sponge-casing the word "lillypad" looks something like this:
 > lIlLyPaD
 
